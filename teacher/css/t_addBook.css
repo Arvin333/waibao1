@@ -1,0 +1,161 @@
+.title input{
+
+	padding: 3px 5px;
+	margin-left: 10px;
+	border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 5px;
+}
+.addFile span{
+	font-size: 	16px;
+}
+.addFile input{
+	margin: 10px 10px 10px 0;
+}
+form textarea{
+	padding: 10px;
+	border: 1px solid #ccc;
+	width: 600px;
+	height: 400px;
+}
+form input{
+	padding: 5px 10px;
+}
+.submit{
+margin-right: 60px;
+}
+.btn{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	display: inherit;
+	text-align: center;
+}
+
+.article hr{
+	margin-bottom: 40px;
+}
+.content-block{
+	border: 1px solid #b9b9b9;
+	margin: 10px 0;
+	padding: 8px;
+}
+.content-block div{
+	display: inline-block;
+	margin-left: 20px;
+	position: relative;
+	top: -20px;
+}
+.select a{
+	color: black;
+}
+.select li{
+	display: inline-block;
+	font-size: 16px;
+	padding: 12px 40px;
+	background-color:#ebebeb ;
+	margin-bottom: 15px;
+}
+.select li:hover{
+	background-color: #d8d8d8;
+}
+.select li:last-child{
+	background-color:#d8d8d8 ;
+	position: relative;
+	left: -4px;
+}
+.content-block p:first-child{
+	font-size: 18px;
+	margin: 15px 0 10px 0;
+}
+.content-block p{
+	line-height: 1.8em;
+}
+.content-block a{
+	color: black;
+	margin-right: 10px;
+	float: right;
+	padding: 8px 20px;
+	border:1px solid #999;
+	background-color: #fff;
+	border-radius: 5px 5px;
+	position: relative;
+	top: 80px;
+}
+.content-block a:hover{
+	background-color: #1be4b3;
+	border-color: #1be4b3;
+}
+.sub-nav{
+	position: absolute;
+	top: 80px;
+	left: 195px;	
+}
+.container{
+	position: relative;
+}
+.title{
+	vertical-align:top;
+}
+.sub-nav .title,.detail{
+	display: inline-block;
+}
+.detail li,.title,.detail span{
+	line-height: 30px;
+	font-size: 16px;
+}
+.detail ul{
+	width: 400px;
+}
+.detail a {
+	padding: 0 20px 0 0;
+}
+.detail a{
+	color: #333;
+}
+#current{
+	color: #1be4b3;
+}
+.hr{
+	width:800px;
+	border-top:1px solid #aaa;
+	position: absolute;
+    top: 180px;
+    left: 195px;
+}
+.time{
+	position: relative;
+}
+.list{
+	position: absolute;
+    top: 200px;
+    left: 195px;
+    width: 800px;
+}
+.list a{
+	color: #333;
+	font-size: 16px;
+}
+.list {
+	line-height: 25px;
+}
+
+.list span{
+	padding-right: 20px;
+}
+ .upload{
+	position: absolute;
+	top: 80px;
+	right: 20px;
+	width: 110px;
+	height: 40px;
+}
+.list ul{
+	padding-bottom: 50px;
+}
+.list li{
+	width: 800px;
+	padding: 10px 0;
+}
+.list li:hover{
+	background-color: #ccc;
+}
