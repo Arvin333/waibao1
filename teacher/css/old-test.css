@@ -126,3 +126,29 @@
 .list li:hover{
 	background-color: #ccc;
 }
+.addTest{
+	display: none;
+	padding: 10px;
+	position: absolute;
+	top: -30px;
+	left: 200px;
+	z-index: 100;
+	border: 1px solid #ccc;
+	background-color: #fff;
+
+}
+.addTest input{
+	padding: 5px 10px;
+}
+.addTest  input[type="text"]{
+	width: 300px;
+	height: 30px;
+	margin: 20px 0;
+	border-radius: 3px;
+}
+.addTest input[type="submit"]{
+	margin: 10px 0 0 180px;
+}
+.addTest input[type="button"]{
+	margin-left: 30px;
+}
