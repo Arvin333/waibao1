@@ -7,11 +7,13 @@
 	clear: "both"
 }
 .logo{
-	width: 120px;
-	height: 60px;
+	margin-top: 10px;	
+	margin-left: 10px;
+	width: 160px;
+	height: 50px;
 }
 .header li span{
-	/*color: #ccc;*/
+	color: #333;
 }
 *{
 	outline: none
@@ -33,41 +35,58 @@ ul{
 	clear: both;
 }
 .active{
-	background-color: #1be4b3;
+
 }
 a:hover{
 	text-decoration: none;
 }
-.header{
-	background-color: #666;
-}
+
 .header ul,.header li,.user{
 	display: inline-block;
 }
 .nav{
 	font-size: 0;
 }
-.message{
-}
-.user{
-}
-.nav li:hover{
-	background-color: #1be4b3;
-}
-.nav li{
+.message i{
 	position: relative;
-	height: 73px;
-	width: 120px;
-	line-height: 73px;
-	margin: 0 auto;
+	top: -5px;
+	font-size: 16px;
+	color: #999;
 }
+.message span{
+	position: relative;
+	top: -18px;
+	padding-left: 1px;
+	right: 10px;
+	text-align: center;
+	line-height: 15px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: #ff7043;
+	border-radius: 5px;
+}
+.user span{
+
+}
+.nav li span:hover {
+	color: #1be4b3;;
+	border-bottom: 1px solid #1bd9aa;
+}
+.nav li:after{
+	width: 100px;
+	height: 5px;
+	content: "dd"
+}
+
 .message li{
-	height: 60px;
+
+	padding-left: 10px;
 	line-height: 73px;
 	margin: 0 auto;
 }
-.message li:hover{
-	background-color: #5d5d5d;
+.message li span:hover{
+	color: #1be4b3;
 }
 .message li a{
 }
@@ -96,15 +115,16 @@ a:hover{
 .message a img{
 	padding: 3px;
 }
-
-.message span{
-	position: relative;
-    top: -6px;
+.user em{
+	font-size: 18px;
+	padding-top: 3px;
+	margin-right: 5px;
 }
+
 .nav li{
 	position: relative;
 	height: 60px;
-	width: 95px;
+	width: 100px;
 	line-height: 73px;
 	margin: 0 auto;
 }

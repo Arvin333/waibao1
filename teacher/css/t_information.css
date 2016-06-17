@@ -41,21 +41,10 @@ hr{
 	border:1px solid #fff;
 	padding: 5px;
 }
-.menu{
-	border: 1px solid #dcdcdc;
-	
-}
 .menu li:hover{
-	background-color: #1be4b3;
+	background-color: #00b489;
 }
-.menu li{
-	display: block;
-	width: 163px;
-	height: 54px;
-	line-height: 54px;
-	background-color: #f5f5f5;
-	margin: 1px 0;
-}
+
 .menu>li>a:hover{
 	text-decoration: none;
 }
@@ -71,16 +60,7 @@ hr{
 .menu li img{
 	margin-left: 20px;
 }
- .menu .hover{
-	background-color: #1be4b3;
-}
-.article{
-	width: 805px;
-	margin-left: 30px;
-	font-family: "微软雅黑";
-	font-size: 14px;
-	
-}
+
 .article-content{
 	border: 1px solid #b9b9b9;
 }
@@ -100,7 +80,7 @@ color: black;
 text-decoration: none;
 }
 .yixuan:hover,.yixuan:active{
-	color:#1be3b2;
+	color:#00b489;
 }
 
 a{

@@ -43,16 +43,18 @@ hr{
 	border:1px solid #fff;
 	padding: 5px;
 }
-.menu{
-	border: 1px solid #dcdcdc;
-	
+.menu li:hover span{
+	color:#fff;
+}
+.menu li:hover i{
+	color:#fff;
 }
 .menu li:hover{
-	background-color: #1be4b3;
+	background-color: #00b489;
 }
 .menu li{
 	display: block;
-	width: 163px;
+	width: 183px;
 	height: 54px;
 	line-height: 54px;
 	background-color: #f5f5f5;
@@ -61,11 +63,21 @@ hr{
 .menu>li>a:hover{
 	text-decoration: none;
 }
+.menu li:hover ,.menu li i {
+	color: #fff;
+}
+.menu li i{
+	position: relative;
+	top: 2px;
+	color: #444;
+	margin-left: 22px;
+	font-size: 18px;	
+}
 .menu li span{
 	font-family: "微软雅黑";
 	font-size: 16px;
 	color: black;
-	margin-left: 15px;
+	margin: 0 10px 0 15px;
 }
 .menu .books{
 	margin-left: 10px;
@@ -74,11 +86,11 @@ hr{
 	margin-left: 20px;
 }
  .menu .hover{
-	background-color: #1be4b3;
+	background-color: #00b489;
 }
 .article{
-	width: 805px;
-	margin-left: 30px;
+	width: 800px;
+	margin-left: 37px;
 	font-family: "微软雅黑";
 	font-size: 14px;
 	
@@ -102,6 +114,6 @@ color: black;
 text-decoration: none;
 }
 .yixuan:hover,.yixuan:active{
-	color:#1be3b2;
+	color:#00b489;
 }
 

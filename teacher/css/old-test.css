@@ -55,7 +55,8 @@
 .sub-nav{
 	position: absolute;
 	top: 80px;
-	left: 195px;	
+	left: 225px;
+
 }
 .container{
 	position: relative;
@@ -87,7 +88,8 @@
 	border-top:1px solid #aaa;
 	position: absolute;
     top: 180px;
-    left: 195px;
+
+    left: 225px;
 }
 .time{
 	position: relative;
@@ -95,7 +97,7 @@
 .list{
 	position: absolute;
     top: 200px;
-    left: 195px;
+   left: 225px;
     width: 800px;
 }
 .list a{
